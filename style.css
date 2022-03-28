@@ -1,0 +1,51 @@
+html, body {
+background-image: url('img.jpg');
+background-size: 100%;
+background-repeat: no-repeat;
+background-color: #24272b;
+color: white;
+text-align: center;
+margin: 0px;
+overflow: hidden;
+}
+h1 {
+text-shadow: 0.1em 0.1em 0.2em black;
+font-size: 25px;
+text-align: center;
+color: white;
+}
+.btn {
+background-color: #50320E;
+color: white;
+width: 190px;
+height: 30px;
+padding-bottom: 5px;
+text-align: center;
+font-size: 15px;
+margin-top: 2px;
+margin-bottom: 8px;
+margin-left: 5px;
+margin-right: 5px;
+border-bottom-width: 0px;
+border-right-width: 0px;
+border-top-width: 0px;
+border-left-width: 0px;
+transition-duration: 0.4s;
+cursor: pointer;
+border-radius: 100px;
+}
+.btn:hover {
+background-color: #F17E0B;
+}
+.btn-web {
+background-color: #076300;
+}
+.btn-web:hover {
+background-color: #4BEE0E;
+}
+.btn-toolbox {
+background-color: #2569C0;
+}
+.btn-toolbox:hover {
+background-color: #F17E0B;
+}
